@@ -1,0 +1,9 @@
+@keyframes repeatPulse {
+  0%   { transform: scale(1); background-color: #0d6efd; }   /* Bootstrap blue */
+  50%  { transform: scale(1.1); background-color: #0b5ed7; } /* Slightly darker */
+  100% { transform: scale(1); background-color: #0d6efd; }
+}
+
+.btn-primary {
+  animation: repeatPulse 2s infinite; /* Run every 2s, loop forever */
+  transition: transform 0.3s }    
